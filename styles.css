@@ -1,0 +1,90 @@
+head,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  transform: rotate(270deg);
+  width: 200px;
+  height: 120px;
+}
+
+table td {
+  border: solid 1px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.right_side {
+  display: grid;
+  float: right;
+}
+
+.ability_table {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.ability_text {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.action_table {
+  margin-top: 200px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.action_text {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.Battle_HUD {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20%;
+  left: 40%;
+  font-size: 30px;
+}
+
+.Ship_Player_One {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.Ship_Player_Two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.Ships_Panel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nickname {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.action_button {
+  width: 86px;
+  height: 43.5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+}
+.action_button:hover {
+  color: aliceblue;
+  background-color: rgb(110, 110, 110);
+}
